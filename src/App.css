@@ -1,0 +1,28 @@
+.layout{
+  width: 100%;
+  height: 100vh;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sendForm{
+  display: flex;
+  flex-direction: column;
+
+  label{
+    margin-top: 30px;
+  }
+
+  button{
+    margin-top: 30px;
+  }
+}
